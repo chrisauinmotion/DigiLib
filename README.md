@@ -2,9 +2,11 @@
 
 A simple React-Redux application where you could browse books from the Open library. Check out delpoyed application at https://chrisauinmotion.github.io/DigiLib/#/.
 
-# Note
+# Notes
 
-When first attempting to search your browser may block the search results. The reason is because the browser it recognizes the GET requests to the OpenLibrary api as an unauthenticated source. You must manually allow the browser to load what it labels as "unsafe scripts." In Google chrome all you have to do is click on the sheild that pops up in the search bar with a red "X" and click "Load Unsafe Scripts."
+**1** This project is not responsive. This app is best viewed on a Laptop or Desktop.
+
+**2.** When first attempting to search your browser may block the search results. The reason is because the browser it recognizes the GET requests to the OpenLibrary api as an unauthenticated source. You must manually allow the browser to load what it labels as "unsafe scripts." In Google chrome all you have to do is click on the sheild that pops up in the search bar with a red "X" and click "Load Unsafe Scripts."
 
 # Project File Structure
 
@@ -109,6 +111,8 @@ I completed the majority of the user stories detailed in the coding exercise. Us
 **4.** Improve navigation bar.
 
 **5.** Improve overall project organization.
+
+**6** Make the web app responsive.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
