@@ -1,11 +1,11 @@
 {
-  "main.js": "/chrisauinmotion/DigiLib.git/static/js/main.053fa8c8.chunk.js",
-  "main.js.map": "/chrisauinmotion/DigiLib.git/static/js/main.053fa8c8.chunk.js.map",
-  "static/js/1.499bda9e.chunk.js": "/chrisauinmotion/DigiLib.git/static/js/1.499bda9e.chunk.js",
-  "static/js/1.499bda9e.chunk.js.map": "/chrisauinmotion/DigiLib.git/static/js/1.499bda9e.chunk.js.map",
-  "runtime~main.js": "/chrisauinmotion/DigiLib.git/static/js/runtime~main.ca3a3759.js",
-  "runtime~main.js.map": "/chrisauinmotion/DigiLib.git/static/js/runtime~main.ca3a3759.js.map",
-  "index.html": "/chrisauinmotion/DigiLib.git/index.html",
-  "precache-manifest.d4dc1aef08dfed28dd105f2414e563a2.js": "/chrisauinmotion/DigiLib.git/precache-manifest.d4dc1aef08dfed28dd105f2414e563a2.js",
-  "service-worker.js": "/chrisauinmotion/DigiLib.git/service-worker.js"
+  "main.js": "/DigiLib/static/js/main.053fa8c8.chunk.js",
+  "main.js.map": "/DigiLib/static/js/main.053fa8c8.chunk.js.map",
+  "static/js/1.499bda9e.chunk.js": "/DigiLib/static/js/1.499bda9e.chunk.js",
+  "static/js/1.499bda9e.chunk.js.map": "/DigiLib/static/js/1.499bda9e.chunk.js.map",
+  "runtime~main.js": "/DigiLib/static/js/runtime~main.ba24cbf4.js",
+  "runtime~main.js.map": "/DigiLib/static/js/runtime~main.ba24cbf4.js.map",
+  "index.html": "/DigiLib/index.html",
+  "precache-manifest.0d8b8191f52a9483e66735d793d52838.js": "/DigiLib/precache-manifest.0d8b8191f52a9483e66735d793d52838.js",
+  "service-worker.js": "/DigiLib/service-worker.js"
 }

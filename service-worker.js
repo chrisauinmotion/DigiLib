@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chrisauinmotion/DigiLib.git/precache-manifest.d4dc1aef08dfed28dd105f2414e563a2.js"
+  "/DigiLib/precache-manifest.0d8b8191f52a9483e66735d793d52838.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/chrisauinmotion/DigiLib.git/index.html", {
+workbox.routing.registerNavigationRoute("/DigiLib/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
