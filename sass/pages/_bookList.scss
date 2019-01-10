@@ -1,0 +1,23 @@
+.book-section {
+  margin-top: 2rem;
+  padding: 5rem;
+}
+
+.card-container {
+  max-width: $grid-width;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &::after {
+    content: normal !important;
+  }
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
+
+  @include clearfix;
+}

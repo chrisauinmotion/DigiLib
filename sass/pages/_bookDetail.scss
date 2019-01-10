@@ -1,0 +1,22 @@
+.book-detail-container {
+  background-image: url('https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  padding: 5rem;
+  text-align: center;
+}
+
+.book-info-box {
+  display: inline-block;
+  text-align: center;
+  background-color: lightgray;
+  width: 70vw;
+}
+
+.book {
+  &-detail-img {
+    margin: 5% 0 0 0;
+  }
+
+  &-details {
+    margin: 0 0 5% 0;
+  }
+}

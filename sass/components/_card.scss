@@ -1,0 +1,98 @@
+.card {
+  // FUNCTIONALITY
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  width: 35rem;
+  height: 52rem;
+  margin-bottom: 5rem;
+
+  &__side {
+    height: 52rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+      background-color: $color-white;
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  // PICTURE STYLING
+  &__picture {
+    &--front {
+      position: absolute;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+    }
+
+    &--backup {
+      position: relative;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    &--back {
+      display: block;
+      margin: 3rem auto 0 auto;
+      background-size: cover;
+      height: 23rem;
+    }
+  }
+
+  // FRONT SIDE STYLING
+  &__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Oldenburg;
+    text-shadow: 8px 8px 8px #1c6ea400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 13%;
+    color: #d9cab3;
+    position: absolute;
+    top: 12rem;
+    width: 75%;
+    z-index: 1;
+
+    h1,
+    h2 {
+      display: inline-block;
+    }
+
+    h2 {
+      margin-top: 3rem;
+    }
+  }
+
+  // BUTTON POSITIONING
+  &__btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}

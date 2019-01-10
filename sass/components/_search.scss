@@ -1,0 +1,41 @@
+.main-search {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4noS_hoUSD-do7hwwEkoow8OmFP6IKUyM1EkaQ_htO7v5OPb');
+
+  input {
+    font-family: Roboto;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 200;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      font-size: 1.5rem;
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      font-size: 1.5rem;
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      font-size: 1.5rem;
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      font-size: 1.5rem;
+    }
+    &::placeholder {
+      font-size: 1.5rem;
+    }
+  }
+}
