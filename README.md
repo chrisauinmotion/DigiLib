@@ -1,6 +1,6 @@
 # DigiLib
 
-A simple React-Redux application where you could browse books from the Open library.
+A simple React-Redux application where you could browse books from the Open library. Check out delpoyed application at https://chrisauinmotion.github.io/DigiLib/#/.
 
 # Project File Structure
 
