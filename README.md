@@ -1,12 +1,12 @@
 # DigiLib
 
-A simple React-Redux application where you could browse books from the Open library. Check out delpoyed application at https://chrisauinmotion.github.io/DigiLib/#/.
+A simple React-Redux application where you could browse books from the Open Library. Check out delpoyed application at https://chrisauinmotion.github.io/DigiLib/#/.
 
 # Notes
 
 **1** This project is not responsive. This app is best viewed on a Laptop or Desktop.
 
-**2.** When first attempting to search your browser may block the search results. The reason is because the browser it recognizes the GET requests to the OpenLibrary api as an unauthenticated source. You must manually allow the browser to load what it labels as "unsafe scripts." In Google chrome all you have to do is click on the sheild that pops up in the search bar with a red "X" and click "Load Unsafe Scripts."
+**2.** When first attempting to search your browser may block the search results. The reason is because the browser recognizes the GET requests to the OpenLibrary api as an unauthenticated source. You must manually allow the browser to load what it labels as "unsafe scripts." In Google chrome all you have to do is click on the sheild that pops up in the search bar with a red "X" and click "Load Unsafe Scripts."
 
 # Project File Structure
 
@@ -58,7 +58,7 @@ A simple React-Redux application where you could browse books from the Open libr
 
 | └── \_landing.scss
 
-**3. SRC** - In this project I used React and Redux. The actions and reducers folders pertain to Redux and the components and containers folders as well as the index.js file on the same level are the project's React fils. For this project I attempted to use the container component pattern. For details on this React development pattern please reference the following article, https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0.
+**3. SRC** - In this project I used React and Redux. The actions and reducers folders pertain to Redux and the components and containers folders as well as the index.js file on the same level are the project's React files. For this project I attempted to use the container component pattern. For details on this React development pattern please reference the following article, https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0.
 
 | ├── actions
 
