@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
   },
-  "homepage": "https://github.com/chrisauinmotion/DigiLib.git",
+  "homepage": "https://chrisauinmotion.github.io/DigiLib/",
   "eslintConfig": {
     "extends": "react-app"
   },
