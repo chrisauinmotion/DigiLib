@@ -1,7 +1,7 @@
 // REACT
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 // REDUX
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -18,13 +18,13 @@ const createStoreWithMiddleware = applyMiddleware(promiseMiddleware)(
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Route exact path="/" component={Landing} />
         <Route path="/app" component={App} />
         <Route path="/book/:id" component={Book} />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById('root')
 );
