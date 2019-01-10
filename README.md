@@ -6,44 +6,77 @@ A simple React-Redux application where you could browse books from the Open libr
 
 **1. PUBLIC** - the project's static files.
 | ├── css
+
 | | └── style.css
+
 | ├── images
+
 | | └── books_landing.jpg
+
 | └── index.html
 
 **2. SASS** - I recently learned SASS and attempted to use the 7 - 1 pattern which uses different folders for partial Sass files, and 1 main Sass file to import all other files into a compiled CSS stylesheet. Because my project was small I only used 4 out of the 7 folders recommended by the pattern.
 | ├── abstracts
+
 | | ├── \_mixins.scss
+
 | | └── \_variables.scss
+
 | ├── base
+
 | | ├── \_animations.scss
+
 | | ├── \_base.scss
+
 | | ├── \_typography.scss
+
 | | └── \_utilities.scss
+
 | ├── components
+
 | | ├── \_button.scss
+
 | | ├── \_card.scss
+
 | | └── \_search.scss
+
 | ├── main.scss
+
 | └── pages
+
 | ├── \_bookDetail.scss
+
 | ├── \_bookList.scss
+
 | └── \_landing.scss
 
 **3. SRC** - In this project I used React and Redux. The actions and reducers folders pertain to Redux and the components and containers folders as well as the index.js file on the same level are the project's React fils. For this project I attempted to use the container component pattern. For details on this React development pattern please reference the following article, https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0.
 | ├── actions
+
 | | ├── index.js
+
 | | └── types.js
+
 | ├── components
+
 | | ├── App.js
+
 | | └── Landing.js
+
 | ├── containers
+
 | | ├── book.js
+
 | | ├── list_of_books.js
+
 | | └── search.js
+
 | ├── index.js
+
 | └── reducers
+
 | ├── books_reducer.js
+
 | └── index.js
 
 # What I accomplished
