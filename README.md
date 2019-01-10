@@ -87,16 +87,23 @@ A simple React-Redux application where you could browse books from the Open libr
 I completed the majority of the user stories detailed in the coding exercise. Users will be able to do the following:
 
 **1.** Search for a book.
+
 **2.** Fetch and display a list of results from the Open Library API (https://openlibrary.org/developers/api).
+
 **3.** Filter results.
+
 **4.** Click on a result and view additional details, including author photo and other book details.
 
 # What I would improve with more time
 
 **1.** Implement sorting functionality.
+
 **2.** Improve UI presentation and flow.
+
 **3.** Improve search by allowing users to search by subject in addition to author and title.
+
 **4.** Improve navigation bar.
+
 **5.** Improve overall project organization.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
