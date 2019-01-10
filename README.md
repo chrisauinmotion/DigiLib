@@ -6,11 +6,11 @@ A simple React-Redux application where you could browse books from the Open libr
 
 **1. PUBLIC** - the project's static files.
 
-| ├── css
-| | └── style.css
-| ├── images
-| | └── books_landing.jpg
-| └── index.html
+| ├── css ...
+| | └── style.css ...
+| ├── images ...
+| | └── books_landing.jpg ...
+| └── index.html ...
 
 **2. SASS** - I recently learned SASS and attempted to use the 7 - 1 pattern which uses different folders for partial Sass files, and 1 main Sass file to import all other files into a compiled CSS stylesheet. Because my project was small I only used 4 out of the 7 folders recommended by the pattern.
 
