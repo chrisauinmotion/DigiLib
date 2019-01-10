@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chrisauinmotion/DigiLib.git/precache-manifest.85c0159e5bee557b9afc0dad595e62c3.js"
+  "/chrisauinmotion/DigiLib.git/precache-manifest.d4dc1aef08dfed28dd105f2414e563a2.js"
 );
 
 workbox.clientsClaim();
